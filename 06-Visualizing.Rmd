@@ -19,7 +19,7 @@ Consider a simple sequence learning experiment. 20 participants are given the op
 
 The predictions are that typing speed should increase with practice, and that typing speed should be faster for the short than long sequences. We will also predict an interaction, where the effect of practice is larger for the short than long sequences.
 
-Using the concepts from the previous section we can build the simulated data using the following code. Note that we need to simulate data for 8 different conditions of the DV (it’s a 2x4 design). We could do this on a single line of code, but for clarity we will break up the code.^[Incidentally, there's a web application that organised these functions into a programming-free interface ([link](https://github.com/pablobernabeu/Experimental-data-simulation).]
+Using the concepts from the previous section we can build the simulated data using the following code. Note that we need to simulate data for 8 different conditions of the DV (it’s a 2x4 design). We could do this on a single line of code, but for clarity we will break up the code.^[Incidentally, there's a web application that organised these functions into a programming-free interface ([link](https://github.com/pablobernabeu/Experimental-data-simulation)).]
 
 ```{r ,}
 library(ggplot2)
